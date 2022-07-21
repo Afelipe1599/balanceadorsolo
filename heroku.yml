@@ -1,6 +1,5 @@
-version: '3'
-services:
-  nginx:
-    build: .
-    ports:
-      - "8080:80"
+build:
+    docker:
+	ngnx:Dockerfile	
+	ports:
+	    - "8080:80"
