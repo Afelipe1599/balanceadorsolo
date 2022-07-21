@@ -1,5 +1,4 @@
 build:
-    docker:
-	ngnx:Dockerfile	
-	ports:
-	    - "8080:80"
+  docker:
+    ngnx: Dockerfile
+		
